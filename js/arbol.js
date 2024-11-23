@@ -222,59 +222,59 @@ class Arbol_Binario {
 const biblioteca = new Arbol_Binario();
 
 
-let libro1 = {
-    "Nombre": "El Quijote",
-    "Autor": "Miguel de Cervantes",
-    "Año de publicación": 1605,
-};
+// let libro1 = {
+//     "Nombre": "El Quijote",
+//     "Autor": "Miguel de Cervantes",
+//     "Año de publicación": 1605,
+// };
 
-let libro2 = {
-    "Nombre": "El Señor de los Anillos",
-    "Autor": "J.R.R. Tolkien",
-    "Año de publicación": 1954,
-};
+// let libro2 = {
+//     "Nombre": "El Señor de los Anillos",
+//     "Autor": "J.R.R. Tolkien",
+//     "Año de publicación": 1954,
+// };
 
-let libro3 = {
-    "Nombre": "Harry Potter y el Prisionero de Azkaban",
-    "Autor": "J.K. Rowling",
-    "Año de publicación": 1999,
-};
+// let libro3 = {
+//     "Nombre": "Harry Potter y el Prisionero de Azkaban",
+//     "Autor": "J.K. Rowling",
+//     "Año de publicación": 1999,
+// };
 
-let libro4 = {
-    "Nombre": "2001 Odisea en el espacio",
-    "Autor": "Arthur C. Clarke",
-    "Año de publicación": 1968,
-};
+// let libro4 = {
+//     "Nombre": "2001 Odisea en el espacio",
+//     "Autor": "Arthur C. Clarke",
+//     "Año de publicación": 1968,
+// };
 
-let libro5 = {
-    "Nombre": "Cien Años de Soledad",
-    "Autor": "Gabriel García Márquez",
-    "Año de publicación": 1967,
-};
+// let libro5 = {
+//     "Nombre": "Cien Años de Soledad",
+//     "Autor": "Gabriel García Márquez",
+//     "Año de publicación": 1967,
+// };
 
-let libro6 = {
-    "Nombre": "La historia del culo",
-    "Autor": "Juan José Saer",
-    "Año de publicación": 1992,
-};
+// let libro6 = {
+//     "Nombre": "La historia del culo",
+//     "Autor": "Juan José Saer",
+//     "Año de publicación": 1992,
+// };
 
-let libro7 = {
-    "Nombre": "Guía de supervivencia",
-    "Autor": "Christopher McDougall",
-    "Año de publicación": 2009,
-};
+// let libro7 = {
+//     "Nombre": "Guía de supervivencia",
+//     "Autor": "Christopher McDougall",
+//     "Año de publicación": 2009,
+// };
 
-let libro8 = {
-    "Nombre": "50 sombras de Grey",
-    "Autor": "E.L. James",
-    "Año de publicación": 2009,
-};
+// let libro8 = {
+//     "Nombre": "50 sombras de Grey",
+//     "Autor": "E.L. James",
+//     "Año de publicación": 2009,
+// };
 
-biblioteca.insertar(libro1);
-biblioteca.insertar(libro2);
-biblioteca.insertar(libro3);
-biblioteca.insertar(libro4);
-biblioteca.insertar(libro5);
-biblioteca.insertar(libro6);
-biblioteca.insertar(libro7);
-biblioteca.insertar(libro8);
+// biblioteca.insertar(libro1);
+// biblioteca.insertar(libro2);
+// biblioteca.insertar(libro3);
+// biblioteca.insertar(libro4);
+// biblioteca.insertar(libro5);
+// biblioteca.insertar(libro6);
+// biblioteca.insertar(libro7);
+// biblioteca.insertar(libro8);
