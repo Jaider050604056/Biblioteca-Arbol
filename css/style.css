@@ -1,0 +1,72 @@
+/* Decoración general de toda la pagina */
+body{
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+/* Tamaño de las imagenes, en este caso los palos */
+img{
+    width: 30%;
+}
+/* Decoración de los inputs de la pagina */
+input{
+    font-size:medium;
+    border-color: black;
+    border-style:ridge;
+    text-align: center;
+}
+/* Tamaño de la pagina adaptable */
+.container{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+/* Tamaño del elemento adaptable */
+.container_flex{
+    display: inline-flex;
+}
+/* Tamaño del elemento adaptable */
+#numero{
+    text-align: center;
+}
+/* Ajustes de tamaño y posicion del juego en la pagina */
+.game{
+    text-align:justify;
+    width: 80%;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+    margin-top: 50px;
+}
+/* Valores de tamaño y posición de cada bloque */
+.block {
+    position: absolute;
+    z-index: 1;
+    transition: all 0.5s ease; 
+    background-color: rgb(68, 127, 255);
+    border: 4px solid rgb(0, 22, 146);    
+}
+/* Bloque 1 predeterminado al cargar página */
+#block1{
+    /* posicion */
+    bottom: 45%;
+    left: 12%;
+
+     /* tamaño */
+    width: 15%; 
+    height: 40%;
+}
+/* Bloque 2 predeterminado al cargar página */
+#block2{
+    /* posicion */
+    bottom: 5%;
+    left: 6%;
+
+    /* tamaño */
+    width: 25%; 
+    height: 40%;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Contenedor de todo lo visual en la pagina-->
+    <h1>Biblioteca</h1>
+    <div class="container">
+        <h2>Agregar libro</h2>
+        <!-- Contenedor de botones y cajas de textos que controlan el juego -->
+        <div class="container">
+            <p>
+                Nombre: 
+                <input type="text" id="input_nombre" placeholder="Nombre del libro">
+                Autor: 
+                <input type="text" id="input_autor" placeholder="Autor del libro">
+                Año: 
+                <input type="number" id="input_ano" placeholder="Año de publicación" min="0"> <br><br>
+                <input type="submit" id="enviar" value="Agregar">
+            </p>
+        </div>
+            <h2>Catalogo de libros</h2>
+
+            <input type="submit" id="in_order" value="Orden alfabetico (in-order)"> 
+            <input type="submit" id="pre_order" value="Recorrido Pre-order">
+            <input type="submit" id="post_order" value="Recorrido Post-order"> <br><br>
+            <input type="submit" id="arbol" value="Vista de arbol">
+
+            <!-- Contenedor del juego, solo texto-->
+            <div class="game" style="margin-top: 10px;">
+                <p id="texto_catalogo">Catalogo vacio</p>
+        </div>
+        <h2>Buscar y Eliminar</h2>
+        <div class="container">
+            <p>
+                Nombre: 
+                <input type="text" id="input_nombre_otro" placeholder="Nombre del libro">
+                <input type="submit" id="buscar" value="Buscar"><br><br>
+                <input type="submit" id="eliminar" value="Eliminar">
+            </p>
+        </div>
+   </div>
+
+    <!-- Archivo javascript -->
+    <script src="js/arbol.js"></script>
+</body>
+</html>
